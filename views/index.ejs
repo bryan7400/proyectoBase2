@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <table bgcolor="green" border="2">
+    <tr> 
+
+    	<td>
+    	<h1>Tipo de Reclamo	</h1>
+    	</td>
+	    <td>
+	    <h1>Observacion</h1>
+	    </td>
+    	<td>
+    	<h1>Fecha</h1>
+    	</td>
+    		
+    </tr>
+    <tr> 
+
+    	<td>
+    	<h1><%= reclamo.tipoReclamo %></h1>	
+    	</td>
+	    <td>
+	    	<h1><%= reclamo.observacion %></h1>
+	    </td>
+    	<td>
+    		<h1><%= reclamo.FechaReclamo %></h1>
+    	</td>
+    		
+    </tr>
+
+   
+    
+    
+    </table>
+    
+  </body>
+</html>
